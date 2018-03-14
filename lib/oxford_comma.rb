@@ -1,9 +1,10 @@
 def oxford_comma(array)
+  count = array.count
   joined_array = []
 
-  if array.length = 1
+  if count = 1
     joined_array = array.to_s
-  elsif array.length = 2
+  elsif count = 2
     joined_array = array.join(" and ")
   else
     joined_array = array.join(", ")
